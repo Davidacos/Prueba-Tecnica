@@ -89,7 +89,7 @@ git clone https://github.com/Davidacos/users-Angular.git
    ```typescript
    export const environment = {
      production: false,
-     apiUrl: 'http://localhost:3000/api/data'
+     apiUrl: 'http://localhost:3000/'
    };
    ```
 
@@ -107,9 +107,9 @@ git clone https://github.com/Davidacos/users-Angular.git
 
 ### 1. **Desde Postman**
 
-- **URL Base:** `http://localhost:3000`
+- **URL Base:** `http://localhost:3000/api/`
 - Endpoints:
-  - **GET /usuarios:** Retorna la lista de usuarios.
+  - **GET /data:** Retorna la lista de usuarios.
       {
         "id": "3"
         "nombre": "Juan",
